@@ -1,0 +1,5 @@
+{
+  "enterprise": {"name":"Enterprise DLP (Default)","rules":{"email":"redact","credential":"block","card":"redact"}},
+  "redaction": {"name":"Redact detected data","rules":{"email":"redact","credential":"redact","card":"redact"}},
+  "custom": {"name":"Custom policy","rules":{"email":"redact","credential":"block","card":"redact"}}
+}
